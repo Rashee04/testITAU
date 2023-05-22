@@ -10,6 +10,7 @@ jobs:
   terraform-ci:
     uses: ./.github/workflows/ci.yml
     with:
+      infra-working-directory: "infra/ResourceGroup"
       environment: dev
       iupipes-config-path: '.iupipes.yml'
     secrets: inherit

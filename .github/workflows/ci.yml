@@ -20,7 +20,6 @@ on:
       infra-working-directory:
         required: false
         type: string
-        default: 'infra'
       infra-terraform-version:
         required: false
         type: string
